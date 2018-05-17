@@ -1,9 +1,8 @@
 from django.contrib import admin
-from .models import Load, PanelBoard
+from .models import PanelBoard
 
 
 # Register your models here.
 
-admin.site.register(Load)
 admin.site.register(PanelBoard)
 
